@@ -3,8 +3,7 @@
 A hybrid C / x86-64 assembly metamorphic engine demonstrating runtime binary mutation through randomized passes, instruction variants, and in-place payload transformation.
 
 This project is an educational proof-of-concept showing how simple metamorphic techniques can be implemented at the low level and exposed cleanly to C as a reusable module.
-
-![Metamorphic Engine Demo](screenshot.png)
+<img src="screenshot.png" alt="Metamorphic Engine Demo" width="600">
 
 Each execution applies randomized mutation passes (XOR, ADD, rotate, swap), producing different byte sequences while preserving program flow.
 ---
