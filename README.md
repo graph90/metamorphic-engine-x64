@@ -44,5 +44,4 @@ The goal is not obfuscation strength, but clarity and experimentation: demonstra
 ```bash
 nasm -f elf64 engine.asm -o engine.o
 gcc main.c engine.o -no-pie -O0
-Run:
 ./a.out
